@@ -1,0 +1,269 @@
+/*++++++++++++++++++HTML ELEMENTS*+++++++++++++++++++++*/
+
+a {
+  color: #39311d;
+  text-decoration: none;
+  font-family: 'Nerko One', cursive;
+  font-size: 1.5rem;
+  padding: 0px 50px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+margin: 0; /*this means all 4 sides are set to 0px*/
+text-align: center;
+/*font-family: Comic Sans MS, Comic Sans, cursive, sans-serif;*/
+font-family: 'Baskervville', serif;
+}
+
+h1 {
+margin:  auto 0 auto;
+/*font-family: Comic Sans, cursive;  dont need to apply family font to h1, can apply to body and this will make all text inside body the same.*/
+font-weight: 300;
+font-size: 5.625rem;
+/*color: #39311d;*/
+font-family: 'Allura', cursive;
+}
+
+h2 {
+  margin: 0 auto; /* same as line 12 0 auto 0 auto, but shorter*/
+  font-size: 2.5rem;
+  font-weight: lighter;
+  color: #39311d;
+  font-family: 'Nerko One', cursive;
+  /*line-height: 4; nother way to create space between the h2 and h1 properties*/
+}
+
+h3 {
+    margin: 0 auto; /* same as line 12 0 auto 0 auto, but shorter*/
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 300; /* 400 is considered normal weight*/
+    color: #39311d;
+    font-family: 'Nerko One', cursive;
+}
+
+hr {
+  border-bottom: none; /* can also just write border: none;*/
+  border-top: 10px dotted #555555;
+  margin: 0px auto; /*can just write auto;*/
+  width: 5%;
+}
+
+span {
+  text-decoration: underline;
+}
+
+
+
+/*+++++++++++++++CLASS ELEMENTS++++++++++++++++++++++*/
+
+
+/*++++++++++++TOP CONTAINER++++++++++++++++++++++++*/
+
+.borderToProfile {
+  height: 10px;
+  background: linear-gradient(#cfd3ce, #f6f5f1);
+  margin: 0px 10px -10px 10px;
+}
+
+.cloudBottom {
+  position: absolute;
+  left: 550px;
+  bottom: 300px; /* takes these positions out to return to better website.*/
+}
+
+.cloudTop {
+  /*top: 50px;
+  padding-left: 220px;*/
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+
+.hey2 {
+  display: inline-block;
+  position: relative;
+  margin: 1px
+}
+
+.mountain {
+  position: relative;
+  bottom: -5px;
+}
+
+
+
+.topContainer {
+  background: linear-gradient(#88e1f2, #e8ffff, #cfd3ce);
+  padding: 140px 0px 0px;
+  margin: 10px 10px 0px 10px;
+  position: relative;
+}
+
+
+/*+++++++++++++MIDDLE CONTAINER+++++++++++++++++*/
+
+
+.crossFitLink {
+  text-decoration: underline;
+}
+
+.crossFitLink:hover {
+  color: #8d93ab;
+}
+
+.crossfitPic {
+  float:left;
+  padding-right: 30px;
+  width: 25%;
+
+
+}
+
+.diyHeader {
+  text-align: right;
+}
+
+.diyPic {
+  float: right;
+  padding-left: 30px;
+  width: 25%;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.mePic {
+  margin: 10px auto 20px auto;
+  transform: rotate(90deg);
+  width: 20%;
+}
+
+.middleContainer {
+  background-color: #f6f5f1;
+  margin: 0px 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.profile {
+  background-color: white;
+  border:solid 25px;
+  border-radius: 20px;
+  border-color: #cfd3ce;
+  /*height: 400px;*/ /*causes the text to leave the border when resizing screen*/
+  padding: 10px;
+  position: relative;
+  margin: 10px auto 100px auto;
+  text-align: center;
+  top: 50px;
+  width: 30%;
+  /*transform: rotate(-90deg);*/
+
+}
+
+.skills {
+  /*padding-top: 50px;*/
+  position: relative;
+}
+
+.skillPic {
+  padding-right: 30px;
+  float: left;
+  width: 25%; /* much better than using a size in px, as % scales to the size of the parent.*/
+}
+
+.skillRow {
+  background-color: white;
+  border:solid 25px;
+  border-color: #cfd3ce;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px auto 50px;
+  width: 50%;
+  text-align: left;
+}
+
+.skillRow1 {
+  background-color: white;
+  border:solid 25px;
+  border-color: #cfd3ce;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px auto 50px;
+  width: 50%;
+  text-align: right;
+}
+
+
+/*BOTTOM CONTAINER*/
+
+.btn {
+   background: #FFC93C;
+   background-image: -webkit-linear-gradient(top, #FFC93C, #D0931E);
+   background-image: -moz-linear-gradient(top, #FFC93C, #D0931E);
+   background-image: -ms-linear-gradient(top, #FFC93C, #D0931E);
+   background-image: -o-linear-gradient(top, #FFC93C, #D0931E);
+   background-image: -webkit-gradient(to bottom, #FFC93C, #D0931E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 15px;
+   line-height: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 90px;
+   font-size: 20px;
+   font-weight: 50;
+   padding: 10px
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   /*display: inline-block;*/
+   cursor: pointer;
+   text-align: center;
+   margin: 10 auto;
+
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottomContainer {
+background-color: #66BFBF;
+padding: 60px 0px 30px 40px;
+position: relative;
+margin: 0px 10px 10px;
+}
+
+.contactMe {
+  margin: 40px auto;
+  position: relative;
+}
+
+.copyright {
+  font-family: 'Nerko One', cursive;
+  color: #EAF6F6;
+  left: -25px;
+  margin: 0px auto;
+  padding: 40px 0px 10px 0px;
+  position: relative;
+}
